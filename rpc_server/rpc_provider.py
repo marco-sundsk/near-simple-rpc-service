@@ -18,7 +18,7 @@ class JsonProvider(object):
     def rpc_addr(self):
         return self._rpc_addr
 
-    def json_rpc(self, method, params, timeout=2):
+    def json_rpc(self, method, params, timeout=300):
         j = {
             'method': method,
             'params': params,
