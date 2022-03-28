@@ -1,0 +1,1 @@
+# near-simple-rpc-service
